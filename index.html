@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Abhay Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:700" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="particles-js"></div>
+    <div id="box">
+        <div class="box1 onlywide animated bounceOutLeft" style="animation-delay:1.7s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutLeft" style="animation-delay:1.9s;"></div>
+        <div class="box2 animated bounceOutRight" style="animation-delay:1.9s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.8s;"></div>
+        <div class="box2 onlywide animated bounceOutRight" style="animation-delay:1.7s;"></div>
+    </div>
+    <a id="about" onclick="showabout()" class="animated fadeIn" style="animation-delay:2.2s;">about</a>
+    <a id="work" onclick="showwork()" class="animated fadeIn" style="animation-delay:2.2s;">work</a>
+    <a id="contact" onclick="showcontact()" class="animated fadeIn" style="animation-delay:2.2s;">contact</a>
+    <div id="middle" class="animated slideInDown" style="animation-delay:2.0s;">
+        <h1>Abhay Partap Singh</h1>
+        <h2>Data Engineer</h2>
+        <div id="menu">
+            <a onclick="showabout()">about</a>
+            <a onclick="showwork()">work</a>
+            <a onclick="showcontact()">contact</a>
+        </div>
+        <table>
+                <tr>
+                    <td class="animated zoomIn" style="animation-delay:2.8s;"><a class="social" href="https://www.linkedin.com/in/abhay-partap-singh-aa2898165/" target="_blank"><i class="fab fa-linkedin"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.2s;"><a class="social" href="https://github.com/abhaypartap12" target="_blank"><i class="fab fa-github"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.4s;"><a class="social" href="https://www.instagram.com/abhay_.partap/" target="_blank"><i class="fab fa-instagram"></i></a></td>
+                    <td class="animated zoomIn" style="animation-delay:2.6s;"><a class="social" href="https://twitter.com/90s_brat" target="_blank"><i class="fab fa-twitter"></i></a></td>
+                </tr>
+        </table>
+    </div>
+    <div id="work_container" class="container">
+        <div onclick="closework()"><i class="fas fa-angle-right"></i></div>
+        <h1>work.</h1>
+        <section>
+            
+            <button class="btn_one">Associate Data Engineer {June 2021 - Present}</button>
+            <button class="btn_two"><a href="https://www.linkedin.com/company/tabsquare-pte-ltd/" target="_blank">@Tabsquare</a></button><br>
+            <button class="btn_one">Data Analyst {Oct 2020 - May 2021}</button>
+            <button class="btn_two"><a href="https://www.linkedin.com/company/capfront-india/" target="_blank">@Capfront Technologies</a></button><br>
+            <button class="btn_one">System Engineer Trainee {Feb 2020 - March 2020}</button>
+            <button class="btn_two"><a href="https://www.linkedin.com/company/infosys/" target="_blank">@Infosys</a></button><br>
+            <button class="btn_one">Data Science Intern {July 2019 - Aug 2019}</button>
+            <button class="btn_two"><a href="https://www.linkedin.com/company/datakalp/" target="_blank">@Datakalp</a></button>
+        </section>
+    </div>
+    <div id="about_container" class="container">
+            <div onclick="closeabout()"><i class="fas fa-angle-left"></i></div>
+            <h1>about me.</h1>
+            <section>
+                <p>
+                    Software/Data Engineer and Open Source enthusiast with 1+ year of experience with a exposure of working in Fintech and F&B Industry. Currently responsible for developing/maintaining data pipelines and data platform for data science team. <br><br>
+->Experience developing automated/ETL scripts using Python <br>
+->Experience working with scheduling tool like Airflow for orchestration<br>
+->Experience developing data pipelines and data platform for analytics team<br>
+->Proficient in SQL Databases MYSQL,MongoDB,PrestoSQL,DynamoDB<br>
+->Good Understanding of using AWS Data Services(s3,athenna), Web Services and API's<br> 
+->Good Knowledge of maintaining version control systems such as GIT/JIRA/BITBUCKET/DOCKER<br>
+                </p>
+                <p> 
+                    <h2><u>Skills</u></h2>
+                </p>
+                <div id="used">
+                    <div><i class="fas fa-circle"></i>&nbsp;Airflow</div>
+                    <div><i class="fas fa-circle"></i>&nbsp;Python</div>
+                    <div><i class="fas fa-circle"></i>&nbsp;SQL</div>
+                    <div><i class="fas fa-circle"></i>&nbsp;NoSQL</div>
+                    <div><i class="fas fa-circle"></i>&nbsp;GCP</div>
+                    <div><i class="fas fa-circle"></i>&nbsp;AWS</div>
+                    <div><i class="fas fa-circle"></i>&nbsp;Data Studio</div>
+                    <div><i class="fas fa-circle"></i>&nbsp;Data Analysis</div>
+                    <div><i class="fas fa-circle"></i>&nbsp;Git</div>
+                    <div><i class="fas fa-circle"></i>&nbsp;Apache Beam</div>
+                </div>
+                <p> 
+                    <h2><u>Fancy Paper</u></h2>
+                </p>
+                <div id="resume">
+                    <a href="./Abhay_Resume.pdf" style="text-decoration:none" target="_blank">Resume</a>
+                </div>
+            </section>
+        </div>
+          <div id="contact_container" class="container">
+            <div onclick="closecontact()"><i class="fas fa-angle-down"></i></div>
+            <h1>contact me.</h1>
+            <section>
+                <p>
+                    <form action="https://getform.io/f/2eb682fc-96ae-4a1c-9adf-3f6be75638ac" method="post">
+                        <input type="text" placeholder="name" name="name" required>
+                        <input type="email" placeholder="email" name="email" required><br>
+                        <textarea placeholder="your message" name="message" required rows="5"></textarea><br>
+                        <button class="btn_one">send</button>
+                    </form> 
+                </p>
+            </section>
+        </div>
+        <div id="footer">
+            made with ❤️ <br> 
+        </div>
+    <script src="index.js" type="text/javascript"></script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
